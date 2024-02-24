@@ -1,0 +1,15 @@
+[
+  { "name": "Alice", "value": 400 },
+  { "name": "Bob", "value": 3000 },
+  { "name": "Catherine", "value": 2000 },
+  { "name": "David", "value": 2780 },
+  { "name": "Elena", "value": 1890 },
+  { "name": "Francis", "value": 2390 },
+  { "name": "Gabriel", "value": 3490 },
+  { "name": "Hannah", "value": 4000 },
+  { "name": "Ian", "value": 3000 },
+  { "name": "Jennifer", "value": 2000 },
+  { "name": "Nathan", "value": 3490 },
+  { "name": "Olivia", "value": 2390 },
+  { "name": "Aleks", "value": 5390 }
+]
