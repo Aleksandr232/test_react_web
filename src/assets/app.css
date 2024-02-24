@@ -1,0 +1,32 @@
+.table-container {
+    margin: 0 auto; /* расположение по центру */
+    max-width: 800px; /* максимальная ширина */
+    border: 1px solid #ccc; /* рамка вокруг таблицы */
+    border-radius: 8px; /* закругленные углы */
+    overflow: hidden; /* скрывать содержимое таблицы за пределами рамки */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* тень */
+  }
+  
+  table {
+    width: 100%; /* ширина 100% контейнера */
+    border-collapse: collapse; /* объединение границ ячеек */
+  }
+  
+  th, td {
+    padding: 12px; /* внутренний отступ */
+    text-align: left; /* выравнивание текста в ячейках */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* цвет фона заголовков */
+    font-weight: bold; /* жирный шрифт */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f8f8; /* цвет фона для четных строк */
+  }
+  
+  tr:hover {
+    background-color: #e0e0e0; /* цвет фона при наведении */
+  }
+  
