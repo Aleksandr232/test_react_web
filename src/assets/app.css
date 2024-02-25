@@ -67,5 +67,22 @@
     font-weight: bold;
 }
 
+.navbar .nav-links li a.active {
+    color: rgb(43, 41, 42);
+    font-weight: bold;
+    position: relative; /* Устанавливаем позицию для родительского элемента */
+}
 
-  
+.navbar .nav-links li a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    width: 100%;
+    border-bottom: 1px solid white; 
+    transition: width 0.3s ease; 
+}
+
+.navbar .nav-links li a.active:hover::after {
+    width: 0; 
+}

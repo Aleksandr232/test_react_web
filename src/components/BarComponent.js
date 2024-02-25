@@ -12,10 +12,10 @@ const BarComponent = () => {
 
   return (
     <div>
-        <BarChart width={800} height={300} data={data}>
+        <BarChart width={1000} height={300} data={data}>
             <XAxis dataKey="name" />
                 <YAxis />
-            <Bar dataKey="value" fill="red" />
+            <Bar dataKey="sku" fill="red" />
             <Tooltip />
             <Legend />
         </BarChart>
