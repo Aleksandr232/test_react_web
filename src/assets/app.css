@@ -1,32 +1,71 @@
 .table-container {
-    margin: 0 auto; /* расположение по центру */
-    max-width: 800px; /* максимальная ширина */
-    border: 1px solid #ccc; /* рамка вокруг таблицы */
-    border-radius: 8px; /* закругленные углы */
-    overflow: hidden; /* скрывать содержимое таблицы за пределами рамки */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* тень */
+    margin: 0 auto; 
+    max-width: 800px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   }
   
   table {
-    width: 100%; /* ширина 100% контейнера */
-    border-collapse: collapse; /* объединение границ ячеек */
+    width: 100%; 
+    border-collapse: collapse; 
   }
   
   th, td {
-    padding: 12px; /* внутренний отступ */
-    text-align: left; /* выравнивание текста в ячейках */
+    padding: 12px; 
+    text-align: left; 
   }
   
   th {
-    background-color: #f2f2f2; /* цвет фона заголовков */
-    font-weight: bold; /* жирный шрифт */
+    background-color: #f2f2f2; 
+    font-weight: bold; 
   }
   
   tr:nth-child(even) {
-    background-color: #f8f8f8; /* цвет фона для четных строк */
+    background-color: #f8f8f8; 
   }
   
   tr:hover {
-    background-color: #e0e0e0; /* цвет фона при наведении */
+    background-color: #e0e0e0; 
   }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ad0b77;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    
+}
+
+.datetime {
+    font-size: 16px;
+    color: #ffffff;
+    position: relative;
+    left: 35%;
+    right: 35%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
   

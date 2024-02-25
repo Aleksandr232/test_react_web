@@ -19,7 +19,6 @@ const TableComponent = () => {
         Header: 'Value',
         accessor: 'value',
       },
-      // Добавьте другие столбцы, если это необходимо
     ],
     []
   );
