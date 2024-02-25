@@ -24,8 +24,8 @@ const DropdownMenu = () => {
             {isOpen && (
                 <div className="dropdown-content">
                 <div onClick={ThemeClick} className="theme-btn flex-center">
-                    <DarkModeIcon/>
-                    <BrightnessLowIcon/>
+                    <div className='dark'><DarkModeIcon/></div>
+                    <div className='low'><BrightnessLowIcon/></div>
                 </div>
                 </div>
             )}
