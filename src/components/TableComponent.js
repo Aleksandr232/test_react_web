@@ -14,6 +14,22 @@ const TableComponent = () => {
           accessor: 'id',
         },
         {
+            Header: 'Custom',
+            accessor: 'custom',
+        },
+        {
+            Header: 'Path',
+            accessor: 'path',
+        },
+        {
+            Header: 'ProductGroup',
+            accessor: 'product',
+        },
+        {
+            Header: 'Machine',
+            accessor: 'machine',
+        },
+        {
           Header: 'Name',
           accessor: 'name',
         },
@@ -48,12 +64,16 @@ const TableComponent = () => {
     const exportToExcel = () => {
       const formattedData = Data.map(item => ({
           ID: item.id,
+          Custom: item.custom,
+          Path: item.path,
+          ProductGroup: item.product,
+          Machine: item.machine,
           Name: item.name,
           LocalDate: item.date,
           SKU: item.sku,
           Recipe: item.recipe,
           CupSize: item.cupsize,
-          Staus: item.status,
+          Status: item.status,
           Summed: item.summed,
       }));
   

@@ -19,6 +19,7 @@ const SimpleLineComponent = () => {
                 <Line type="monotone" dataKey="sku" stroke="green" activeDot={{ r: 8 }} />
                 <Line type="monotone" dataKey="summed" stroke="#7884d8" activeDot={{ r: 8 }} />
                 <Line type="monotone" dataKey="recipe" stroke="red" activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="machine" stroke="orange" activeDot={{ r: 8 }} />
             <Tooltip />
             <Legend />
         </LineChart>

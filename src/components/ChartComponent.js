@@ -12,7 +12,6 @@ const ChartComponent = () => {
 
   return (
     <div>
-      {data.length > 0 ? (
         <LineChart width={1000} height={300} data={data}>
           <XAxis dataKey="name" />
           <YAxis />
@@ -21,9 +20,6 @@ const ChartComponent = () => {
           <Tooltip />
           <Legend />
         </LineChart>
-      ) : (
-        <p>Загрузка данных...</p>
-      )}
     </div>
   );
 };
