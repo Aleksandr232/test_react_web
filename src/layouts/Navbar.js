@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link} from "react-router-dom";
+import DropdownMenu from './DropdownMenu';
 
 
 
@@ -21,6 +22,7 @@ const Navbar = (props) =>{
         <ul className="nav-links">
             <li><Link to="/" className={window.location.pathname === "/" ? "active" : ""}>Overview</Link></li>
             <li><Link to="/table" className={window.location.pathname === "/table" ? "active" : ""}>Sales Export</Link></li>
+            <DropdownMenu/>
         </ul>
     </nav>
     );
