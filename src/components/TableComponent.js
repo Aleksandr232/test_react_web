@@ -4,7 +4,7 @@ import { saveAs } from 'file-saver';
 import * as XLSX from 'xlsx';
 import Data from '../data/data.json';
 
-import '../assets/app.css'
+
 
 const TableComponent = () => {
     const columns = React.useMemo(

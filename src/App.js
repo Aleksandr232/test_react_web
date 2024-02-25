@@ -2,7 +2,9 @@ import React from 'react';
 import {Route, Routes, BrowserRouter} from 'react-router-dom'
 import Dart from './pages/Dart';
 import Table from './pages/Table';
-import './App.css';
+
+
+import './assets/app.css';
 
 function App() {
   return (
